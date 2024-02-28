@@ -9,11 +9,11 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "us-east-1"
+  region = "ap-south-1"
 }
 
 resource "aws_instance" "web" {
-  ami           = "ami-0f9c44e98edf38a2b"
+  ami           = "ami-09b9e25b6db1d130c"
   instance_type = "t2.micro"
   key_name      ="forpractice"
 
