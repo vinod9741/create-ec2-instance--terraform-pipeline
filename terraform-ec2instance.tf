@@ -15,7 +15,7 @@ provider "aws" {
 resource "aws_instance" "web" {
   ami           = "ami-09b9e25b6db1d130c"
   instance_type = "t2.micro"
-  key_name      ="forpractice"
+  key_name      ="source"
 
   tags = {
     Name = "HelloWorld"
